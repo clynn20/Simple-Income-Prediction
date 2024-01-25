@@ -109,7 +109,7 @@ def load_data():
     train_y = train_data[:, -1] 
     # train_y is 2d array with 8000 rows and 1 column(income), aka n x 1 column vector
     train_y = train_y[:, np.newaxis]
-    # test_x is 2d array with 2000 rows and 85 columns, exclude the income column
+    # test_x is 2d array with 2000 rows and 85 columns, exclude the id column and didn't contain income column
     test_x = np.genfromtxt('test_pub.csv', delimiter=',')[1:,1:]
     return train_x, train_y, test_x
     
