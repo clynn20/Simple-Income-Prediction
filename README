@@ -21,5 +21,7 @@ The dataset has three types of attributes - numerical, ordinal, and nominal. Num
 
 The program will read two files named: train.csv, and test_pub.csv and generate an output file named: test_predicted.csv
 
+Install the numpy package by using the below command
+pip install numpy
 Use the below command to run the program
 python knn.py
